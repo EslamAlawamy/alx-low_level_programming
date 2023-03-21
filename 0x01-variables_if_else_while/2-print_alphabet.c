@@ -1,20 +1,15 @@
 #include <stdio.h>
-
 /**
- * main - Prints the alphabet.
+ * main - hhhhhhhhh
  *
- * Return: Always 0 (Success)
+ * Return: hohohoho
  */
-int main(void)
-{
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+int main (void)
+	char alphabet = "abcdefghijklmnopqrstuvwxyz";
 	int i;
-
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 26; i++ )
 	{
-		putchar(alp[i]);
+	putchar(alphabet[i])
+	putchar('\n')
+	return (0)
 	}
-	putchar('\n');
-	return (0);
-}
-
