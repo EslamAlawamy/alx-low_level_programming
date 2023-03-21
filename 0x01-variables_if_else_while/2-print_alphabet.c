@@ -5,7 +5,7 @@
  * Return: hohohoho
  */
 int main (void)
-	char alphabet = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 	for (i = 0; i < 26; i++ )
 	{
