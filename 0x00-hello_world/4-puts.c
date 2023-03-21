@@ -1,7 +1,5 @@
 #include <stdio.h>
-/** main - The Begaininng of the code 
-* then return
-*/
+/* main - Entry point */
 
 int main(void)
 
