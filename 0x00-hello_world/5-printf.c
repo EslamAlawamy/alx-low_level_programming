@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main . the head of code
+ * main - the head of code
  *
  * Return: it must be zero
  */
