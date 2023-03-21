@@ -1,5 +1,9 @@
 #include <stdio.h>
-int main(void) /* main - The Begaininng of the code */
+/** main - The Begaininng of the code 
+* then return
+*/
+
+int main(void)
 
 {
 	puts("\"Programming is like building a multilingual puzzle");
