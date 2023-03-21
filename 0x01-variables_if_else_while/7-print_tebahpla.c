@@ -8,6 +8,7 @@
 int main(void)
 {
 	int i;
+	
 	for (i = 123; i > 26; i--)
 		putchar (i);
 		putchar ('\n');
