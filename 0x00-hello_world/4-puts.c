@@ -1,6 +1,6 @@
 #include <stdio.h>
-/* main - The Begaininng of the code */
-int main(void)
+int main(void) /* main - The Begaininng of the code */
+
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
