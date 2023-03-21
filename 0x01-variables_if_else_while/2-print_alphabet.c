@@ -10,8 +10,9 @@ int main (void)
 	int i;
 	for (i = 0; i < 26; i++ )
 	{
-	putchar(alphabet[i])
-	putchar('\n')
-	return (0)
+	putchar(alphabet[i]);
 	}
+	putchar('\n');
+	return (0);
+	
 }
