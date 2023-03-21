@@ -5,7 +5,8 @@
  * Return: hohohoho
  */
 int main (void)
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+{
+	char alphabet = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 	for (i = 0; i < 26; i++ )
 	{
@@ -13,3 +14,4 @@ int main (void)
 	putchar('\n')
 	return (0)
 	}
+}
