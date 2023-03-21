@@ -2,7 +2,7 @@
 /**
  * main - heheheh
  *
- * Return -Hohohohoh
+ * Return: Hohohohoh
  */
 
 int main(void)
