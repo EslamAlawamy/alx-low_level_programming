@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* MAIN . MY FIRST PROJICT */
+/* main . MY FIRST PROJICT */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
