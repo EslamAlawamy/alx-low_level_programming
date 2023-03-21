@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ * return value the last
  */
 
 int main(void)
