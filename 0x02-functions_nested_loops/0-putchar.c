@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include "main.h"
-
-int main (void)
+/**
+ * main - HAHAHAHA
+ *
+ * Return: HEHEHEHE
+ */
+int main(void)
 {
 	printf("_putchar\n");
-	return(0);
+	return (0);
 }
