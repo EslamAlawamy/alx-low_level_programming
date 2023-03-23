@@ -22,11 +22,12 @@ void times_table(void)
 		
 			eq = a * b;	
 	 		
-			if (eq < 10)
+			if (eq < 100)
 			{
 				_putchar(' ');
 				_putchar(eq + '0');
 			}
+			
 	 	}
 	 _putchar('\n');
 	}
