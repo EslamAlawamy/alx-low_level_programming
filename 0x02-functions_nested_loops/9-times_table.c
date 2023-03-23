@@ -17,18 +17,14 @@ void times_table(void)
 	 
 		for (b = 1; b < 10; b++)
 		{
-		eq = a * b;	
-		_putchar(',');
-		_putchar(' ');
-		}
-	 		if (eq < 10)
-	 	{
-		 _putchar(' ');
-		 _putchar(eq + '0');
-	 	}
-		 
+			_putchar(',');
+			_putchar(' ');
 		
-		
-	
+			eq = a * b;	
+	 		
+			if (eq < 10)
+				_putchar(' ');
+				_putchar(eq + '0');
+	 	}	
 	}
 }
