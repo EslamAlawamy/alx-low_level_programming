@@ -23,8 +23,10 @@ void times_table(void)
 			eq = a * b;	
 	 		
 			if (eq < 10)
+			{
 				_putchar(' ');
 				_putchar(eq + '0');
+			}
 	 	}	
 	}
 }
