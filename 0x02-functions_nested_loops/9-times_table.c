@@ -28,8 +28,10 @@ void times_table(void)
 				_putchar(eq + '0');
 			}
 			else
+			{
 				_putchar((eq / 10) + 48);
 				_putchar((eq % 10) + 48);
+			}
 	 	}
 	 _putchar('\n');
 	}
