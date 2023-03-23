@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_alphabet - Yeah
+ * print_alphabet_x10 - Yeah
  *
  * Return: is 0
  */
 void print_alphabet_x10(void)
 {
 	int i;
-	
+
 	for (i = 0; i < 10; i++)
 	{
 		for (i = 97; i < 123; i++)
