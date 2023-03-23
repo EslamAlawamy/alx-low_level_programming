@@ -2,7 +2,7 @@
 
 /**
  * _islower - Shows 1 if the input is a
- *
+ * @c: describe the parameter
  * Return: 1 for lowercase character. 0 for the rest.
  */
 int _islower(int c)
