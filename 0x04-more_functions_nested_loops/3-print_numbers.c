@@ -8,7 +8,7 @@ void print_numbers(void)
 {
 	int i;
 
-	for (i = 0; c < 58; c++)
+	for (i = 0; i < 58; i++)
 	{
 		_putchar(i + 48);
 	}
