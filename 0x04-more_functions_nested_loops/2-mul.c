@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _isupper - main
- *@c: the v
+ *mul - main
+ *@a: the v
+ *@b: the v
  *Return: is more
  */
 int mul(int a, int b)
