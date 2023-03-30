@@ -7,14 +7,14 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-  int e;
-  int s;
+	int e;
+	int s;
 
-  for (s = 0; dust[s] != '\0'; s++)
-    ;
-  for (e = 0; src[e] != '\0'; e++)
-  {
-    dest[e + s] = src[s];
-  }
-  return (dest);
+	for (s = 0; dest[s] != '\0'; s++)
+		;
+	for (e = 0; src[e] != '\0'; e++)
+	{
+		dest[e + s] = src[s];
+	}
+	return (dest);
 }
