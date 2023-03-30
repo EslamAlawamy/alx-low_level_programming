@@ -4,20 +4,21 @@
  * _strcat - the main
  * @dest: hreo
  * @src: oerh
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int s;
-	int e;
+        int e;
+        int s;
 
-	for (s = 0; dest[s] != '\0'; s++)
-		;
-	for (e = 0; src[e] != '\0'; e++)
-	{
-		dest[s] = src[e];
-	}
+        for (s = 0; dest[s] != '\0'; s++)
+                ;
+        for (e = 0; src[e] != '\0'; e++)
+        {
+                dest[s + e] = src[e];
+        }
 
-	dest[s] = '\0';
-	return (dest);
+        dest[s + e] = '\0';
+        return (dest);
 }
