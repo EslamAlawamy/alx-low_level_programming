@@ -10,9 +10,9 @@ char *_strncat(char *dest, char *src, int n)
   int e;
   int s;
 
-  for (e = 0; dust[e] != '\0'; e++)
+  for (s = 0; dust[s] != '\0'; s++)
     ;
-  for (s = 0; src[s] != '\0'; s++)
+  for (e = 0; src[e] != '\0'; e++)
   {
     dest[e + s] = src[s];
   }
