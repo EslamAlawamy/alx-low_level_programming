@@ -4,6 +4,7 @@
  * @dest: hel
  * @src: helo
  * @n:hello
+ * Return: helly
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -14,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 		;
 	for (e = 0; src[e] != '\0'; e++)
 	{
-		dest[e + s] = src[s];
+		dest[s + e] = src[e];
 	}
 	return (dest);
 }
