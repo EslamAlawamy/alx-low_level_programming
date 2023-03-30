@@ -8,8 +8,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int e;
 	int s;
+	int e;
 
 	for (s = 0; dest[s] != '\0'; s++)
 		;
