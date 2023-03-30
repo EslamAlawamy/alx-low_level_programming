@@ -17,5 +17,6 @@ void rev_string(char *s)
 	{
 		n = s[r];
 		s[r] = s[le - 1 - r];
+		s[le - 1 - r] = n;
 	}
 }
