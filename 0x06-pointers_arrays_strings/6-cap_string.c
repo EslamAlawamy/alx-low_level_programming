@@ -15,7 +15,7 @@ char *cap_string(char *s)
 
 	for (e = 0; s[e] != '\0'; e++)
 	{
-		if (s[e] == 0 && s[e] < 123 && s[e] > 96)
+		if (e == 0 && s[e] < 123 && s[e] > 96)
 			s[e] = s[e] - 32;
 	}
 	
