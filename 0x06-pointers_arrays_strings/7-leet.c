@@ -7,6 +7,7 @@
 
 char *leet(char *s)
 {
+	char *ptr = s;
 	int i;
 	int j;
 	char o[11] = "aAeEoOtTlL";
@@ -22,5 +23,5 @@ char *leet(char *s)
 			}
 		}
 	}
-	return (s);
+	return (ptr);
 }
