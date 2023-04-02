@@ -7,7 +7,6 @@
 
 char *leet(char *s)
 {
-	char *ptr = s;
 	int i;
 	int j;
 	char o[11] = "aAeEoOtTlL";
@@ -19,9 +18,9 @@ char *leet(char *s)
 		{
 			if (s[i] == o[j])
 			{
-				s[i] == c[j];
+				s[i] = c[j];
 			}
 		}
 	}
-	return (ptr);
+	return (s);
 }
