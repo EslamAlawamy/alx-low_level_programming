@@ -7,7 +7,7 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
 {
-	unsigned e;
+	unsigned int e;
 
 	for (e = 0; e < n; e++)
 	{
