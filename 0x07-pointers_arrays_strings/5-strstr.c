@@ -10,9 +10,9 @@ char *_strstr(char *haystack, char *needle)
 {
 	int e = 0, w = 0;
 
-	while (haystack[a])
+	while (haystack[e])
 	{
-		while (needle[b])
+		while (needle[w])
 		{
 			if (haystack[e + w] != needle[w])
 			{
