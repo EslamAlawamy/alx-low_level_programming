@@ -3,7 +3,7 @@
  * _strpbrk - main
  * @s: first
  * @accept:sec
- * REturn: end
+ * Return: end
  */
 char *_strpbrk(char *s, char *accept)
 {
