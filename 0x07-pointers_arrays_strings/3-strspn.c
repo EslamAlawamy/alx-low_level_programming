@@ -2,7 +2,8 @@
 /**
  * _strspn - main
  * @s: firet
- * @accept: second
+ * @accept: secon
+ * Return: end
  */
 unsigned int _strspn(char *s, char *accept)
 {
