@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - main
+ * @argc: co
+ * @argv: ve
+ * Return: is 0
+ */
 
 int main(int argc, char *argv[])
 {
@@ -14,7 +20,7 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 		else
-			sum = sum + atoi(argv[i]);		
+			sum = sum + atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
