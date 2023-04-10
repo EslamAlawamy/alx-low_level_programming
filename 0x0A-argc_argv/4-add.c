@@ -1,26 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - main
- * @argc: co
- * @argv: ve
- * Return: is 0
+ * main -  program that adds positive numbers.
+ *
+ * @argc: number of argument
+ * @argv: array of strings (argument)
+ *
+ * Return: 0 or 1
  */
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int sum;
 
-	for (i = 0; i < argc; i++)
+	int i, j;
+	int sum = 0;
+
+	if (argc == 1)
 	{
-		if (i < 48 && i > 57)
+		printf("0\n");
+		return (0);
+	}
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			printf("Error\n");
-			return (1);
+			if (argv[i][j < '0' || argv[i][j > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-			sum = sum + atoi(argv[i]);
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
