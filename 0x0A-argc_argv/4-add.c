@@ -10,11 +10,11 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int sum = 0;
+	int sum;
 
 	for (i = 0; i < argc; i++)
 	{
-		if (i < 48 || i > 57)
+		if (i < 48 && i > 57)
 		{
 			printf("Error\n");
 			return (1);
