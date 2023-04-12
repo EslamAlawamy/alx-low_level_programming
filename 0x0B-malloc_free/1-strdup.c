@@ -23,7 +23,7 @@ char *_strdup(char *str)
 	else
 	{
 		for (c = 0; c < t; c++)
-		d[t] = str[c]	
+		d[t] = str[c];
 	}
 	return (d);
 }
