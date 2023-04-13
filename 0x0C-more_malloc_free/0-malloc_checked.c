@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
  * malloc_checked - the main proto
  * @b: the var
@@ -7,10 +6,10 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *m;
+	int *m;
 
 	m = malloc(b);
-	if (mc == NULL)
+	if (m == NULL)
 		exit(98);
 	return (m);
 }
