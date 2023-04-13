@@ -1,7 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
-
+/**
+ * alloc_grid - main
+ * @width: wi
+ * @height: he
+ * Return: is grid
+ */
 int **alloc_grid(int width, int height)
 {
 	int **grid;
@@ -29,7 +34,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (w = 0; w < height; w++)
 	{
-		for (j = 0;j <= height; j++)
+		for (j = 0; j <= height; j++)
 			grid[w][j] = 0;
 	}
 	return (grid);
