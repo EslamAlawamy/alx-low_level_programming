@@ -2,6 +2,9 @@
 #define DOG_H
 /**
  * struct dog - is the 1st
+ * @name: 1st
+ * @age: 2st
+ * @owner: 3st
  */
 struct dog
 {
