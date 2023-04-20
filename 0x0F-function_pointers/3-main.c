@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int (*operation)(int, int), n, n2;
+	int (*operation)(int, int);
 
 	if (argc != 4)
 	{
@@ -23,13 +23,11 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	n = atoi(argv[1]);
-	n2 = atoi(argv[3]);
-	if (((argv[2][0] == '/') || (argv[2][0] == '%')) && (n2 == 0))
+	if (((argv[2][0] == '/') || (argv[2][0] == '%')) && (atoi(argv[3]) == 0))
 	{
 		printf("Error\n");
 		exit(100);
 	}
-	printf("%d\n", operation(n, n2));
+	printf("%d\n", operation(atoi(argv[1]), (atoi(argv[3])));
 	return (0);
 }
