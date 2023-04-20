@@ -28,13 +28,12 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				str = va_arg(fptr, char *);
-				if (str == 0)
+				if (str != 0)
 				{
-					printf("(nil)");
+					printf("%s", str);
 					break;
 				}
-				if (str != 0)
-					printf("%s", str);
+				printf("(nil)");
 				break;
 		}
 		if ((format[f] == 'c' || format[f] == 'i' || format[f] == 'f' || format[f] == 's') && format[f + 1] != 0)
