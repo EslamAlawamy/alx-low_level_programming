@@ -30,6 +30,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(100);
 	}
-	printf("%d\n", operation(n, n2);
+	printf("%d\n", operation(n, n2));
 	return (0);
 }
