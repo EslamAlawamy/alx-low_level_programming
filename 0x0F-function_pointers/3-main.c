@@ -17,13 +17,14 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	operation = get_op_func(argv[2]);
-	n = atoi(argv[1]);
-	n2 = atoi(argv[3]);
+
 	if (operation == 0)
 	{
 		printf("Error\n");
 		exit(99);
 	}
+	n = atoi(argv[1]);
+	n2 = atoi(argv[3]);
 	if (((argv[2][0] == '/') || (argv[2][0] == '%')) && (n2 == 0))
 	{
 		printf("Error\n");
