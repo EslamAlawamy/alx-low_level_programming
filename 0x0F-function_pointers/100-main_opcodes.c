@@ -29,6 +29,7 @@ int main(int argc, char *argv[])
 		if (i + 1 != b)
 			printf(" ");
 	}
+	printf("\n");
 	return (0);
 
 }
