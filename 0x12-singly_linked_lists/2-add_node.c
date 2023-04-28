@@ -1,13 +1,18 @@
 #include "lists.h"
-
+/**
+ * add_node - add node in the start
+ * @str: the string that should be printed
+ * @head: list of nodes
+ * Return: the addres or null
+ */
 list_t *add_node(list_t **head, const char *str)
 {
 	char *str_new;
 	list_t *new_node;
 
 	new_node = malloc(sizeof(list_t));
-	if(new_node == NULL)
-	
+	if (new_node == NULL)
+
 		return (NULL);
 
 	str_new = strdup(str);
