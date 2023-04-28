@@ -15,14 +15,15 @@ list_t *add_node(list_t **head, const char *str)
 	if (new_node == NULL)
 		return (NULL);
 
-	for (str_len = 0; str[str_len] != '\0'; str_len++)
+	
 		;
 	if (str_new == NULL)
 	{
 		free(new_node);
 		return (NULL);
 	}
-
+	
+	for (str_len = 0; str[str_len] != '\0'; str_len++)
 	new_node->str = str_new;
 	new_node->len = str_len;
 	new_node->next = (*head);
