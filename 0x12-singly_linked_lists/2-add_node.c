@@ -18,7 +18,7 @@ list_t *add_node(list_t **head, const char *str)
 	for (str_len = 0; str[str_len]; str_len++)
 		;
 
-	if (str_copy == NULL)
+	if (str_new == NULL)
 	{
 		free(new_node);
 		return (NULL);
