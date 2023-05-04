@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_binart - print binary
- * @n th ebinary var
+ * print_binary - print binary
+ * @n: th ebinary var
  * Return: the binary num
  */
 void print_binary(unsigned long int n)
