@@ -16,7 +16,8 @@ int main(int argc, char **argv)
 
 	fd_to_read = open(argv[1], O_RDONLY);
 	if (fd_to_read == -1)
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1])
+		, exit(98);
 
 	fd_to_write = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR
 														  | S_IRGRP | S_IWGRP | S_IROTH);
@@ -31,7 +32,8 @@ int main(int argc, char **argv)
 	{
 		buffer_read = read(fd_to_read, buf, BUFFER_SIZE);
 		if (buffer_read == -1)
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1])
+			, exit(98);
 		i = write(fd_to_write, buf, buffer_read);
 		if (i < buffer_read)
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
