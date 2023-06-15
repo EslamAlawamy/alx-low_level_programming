@@ -1,7 +1,6 @@
 #include "lists.h"
 /**
  * print_dlistint - the main func
- * @dlistint_t: the struct
  * @h: the headear
  * Return: is the number of nodes
  */
